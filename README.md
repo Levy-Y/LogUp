@@ -53,7 +53,7 @@ This will start:
 Upload a file:
 
 ```shell
-curl -X POST -F "file=@logfile.txt" http://localhost:8080/upload
+curl -X POST -F "_=@logfile.txt" http://localhost:8080/upload
 ```
 *Where logfile.txt is the file you are uploading.*
 
